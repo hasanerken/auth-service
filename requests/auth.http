@@ -1,0 +1,18 @@
+POST http://localhost:3003/auth/logout
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDE2Mzk5MDIsImlhdCI6MTY0MTYzOTc4MiwidG9rZW5faWQiOiI0MDA4ZDkxOC1lZjk5LTRhYmUtYTVjNS0wOTU2ZmE0OGE1MDciLCJ0b2tlbl90eXBlIjoiYWNjZXNzX3Rva2VuIiwidXNlcl9pZCI6ImFmNDRkNTY2LTkwNjktNGE5Ny05Y2RkLWNjYWI2NGFmMjZmNyJ9.YyrrR86_5RQyZw7q4nBE3DyyfyvW9w1RMNpFBUCsaaU
+
+{}
+
+###
+POST http://localhost:3003/auth/login
+Content-Type: application/json
+
+{
+  "identity": "demirerken",
+  "password": "12345678"
+}
+
+###
+
+

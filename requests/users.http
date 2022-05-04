@@ -1,0 +1,22 @@
+GET http://localhost:3003/api/status
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDE2MDA1NTQsImlhdCI6MTY0MTYwMDQzNCwidG9rZW5faWQiOiI3ZDhhYzQ2Yi03ZjliLTQyY2MtYjQ2YS1jNmYyNGRkNGVkOWEiLCJ0b2tlbl90eXBlIjoiYWNjZXNzX3Rva2VuIiwidXNlcl9pZCI6ImFmNDRkNTY2LTkwNjktNGE5Ny05Y2RkLWNjYWI2NGFmMjZmNyJ9.6GDE4PnfZfY9aQebf8EuLMN14jh128oYKjOB3fH0WFI
+
+###
+POST http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+  "name": "Demir Erken",
+  "username": "demirerken",
+  "age": 40,
+  "height": 165,
+  "sex": "male",
+  "activity_level": 3,
+  "weight_goal": "loose",
+  "email": "ahmeterken@gmail.com",
+  "password": "12345678"
+}
+
+###
+
